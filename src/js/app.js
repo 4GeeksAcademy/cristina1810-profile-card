@@ -37,7 +37,7 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
           <ul class="${variables.socialMediaPosition}">
-<li><a href="https://twitter.com/${variables.twitter}"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="https://twitter.com/${variables.twitter}"><i class="fab fa-twitter"></i></a></li>
   <li><a href="https://github.com/${variables.github}"><i class="fab fa-github"></i></a></li>
   <li><a href="https://linkedin.com/in/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
   <li><a href="https://instagram.com/${variables.instagram}"><i class="fab fa-instagram"></i></a></li>
@@ -62,10 +62,10 @@ window.onload = function() {
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: "https://twitter.com/4geeksacademy",
-    github: "https://github.com/4geeksacademy",
-    linkedin: "https://linkedin.com/school/4geeksacademy",
-    instagram: "https://instagram.com/4geeksacademy",
+    twitter: "4geeksacademy",
+    github: "4geeksacademy",
+    linkedin: "4geeksacademy",
+    instagram: "4geeksacademy",
     name: "Lucy",
     lastName: "Boylett",
     role: "Web Developer",
